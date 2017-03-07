@@ -1,19 +1,97 @@
 [
-{"op":"add","path":"/personalities/-","value":["idle.4","swim.5",[0,0],[2,-2]]}, //zombie//
-{"op":"add","path":"/personalities/-","value":["idle.3","fall.1",[-2,0],[-2,-2]]}, //yuk//
-{"op":"add","path":"/personalities/-","value":["idle.1","swimIdle.2",[-1,0],[-1,-1]]},  //stressed//
-{"op":"add","path":"/personalities/-","value":["idle.1","walk.3",[-1,0],[0,1]]},  //dontouchme//
-{"op":"add","path":"/personalities/-","value":["idle.3","walk.5",[-2,0],[-1,2]]}, //pensive//
-{"op":"add","path":"/personalities/-","value":["idle.3","swim.1",[-1,0],[-2,-2]]}, //motorcycle//
-{"op":"add","path":"/personalities/-","value":["idle.2","jump.1",[0,0],[0,-1]]}, //protect//
-{"op":"add","path":"/personalities/-","value":["idle.3","jump.3",[-1,0],[-1,-1]]}, //cactaur alt//
-{"op":"add","path":"/personalities/-","value":["idle.3","jump.4",[-1,0],[-1,-1]]}, //cactaur//
-{"op":"add","path":"/personalities/-","value":["idle.2","swim.2",[0,0],[1,-1]]}, //monk//
-{"op":"add","path":"/personalities/-","value":["idle.4","fall.2",[0,0],[0,-1]]},  //hugs//
-{"op":"add","path":"/personalities/-","value":["idle.3","duck.1",[0,0],[-2,7]]},  //airplane//
-{"op":"add","path":"/personalities/-","value":["idle.4","swim.3",[0,0],[-1,0]]},  //superman//
-{"op":"add","path":"/personalities/-","value":["idle.3","rotation",[-1,0],[-1,0]]}, //fonzie//
-{"op":"add","path":"/personalities/-","value":["idle.2","swimIdle.1",[0,0],[-2,0]]},  //excited//
-{"op":"add","path":"/personalities/-","value":["idle.4","fall.3",[0,0],[0,-1]]}, //yay//
-{"op":"add","path":"/personalities/-","value":["idle.3","fall.4",[-1,0],[-1,-1]]} //yay!!!//
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "idle.1", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "idle.2", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "idle.3", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.4", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "duck.1", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "walk.1", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "walk.2", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "walk.3", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "walk.4", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "walk.5", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "run.1", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "run.2", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "run.3", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "run.4", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "run.5", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "jump.1", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "jump.2", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "jump.3", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "jump.4", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "fall.1", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "fall.2", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "fall.3", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "fall.4", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "swimIdle.1", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "swimIdle.2", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "swim.1", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "swim.2", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "swim.3", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "swim.4", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "swim.5", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "idleMelee", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "duckMelee", [-1, 0], [0, 0] ]}, //heroic
+//  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5", [0, 0], [0, 0] ]}, //scared
+
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "idle.1?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "idle.2?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "idle.3?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.4?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "duck.1?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "walk.1?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "walk.2?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "walk.3?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "walk.4?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "walk.5?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "run.1?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "run.2?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "run.3?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "run.4?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "run.5?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "jump.1?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "jump.2?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "jump.3?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "jump.4?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "fall.1?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "fall.2?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "fall.3?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "fall.4?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "swimIdle.1?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "swimIdle.2?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "swim.1?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "swim.2?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "swim.3?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "swim.4?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "swim.5?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "idleMelee?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "duckMelee?flipy", [-1, 0], [0, 0] ]}, //heroic
+//  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5", [0, 0], [0, 0] ]}, //scared
+
+
+
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1?flipx", "idle.1", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2?flipx", "idle.2", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3?flipx", "idle.3", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4?flipx", "idle.4", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5?flipx", "idle.5", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2?flipx", "idle.5", [-1, 0], [0, 0] ]}, //wonderful
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4?flipx", "idle.3", [-1, 0], [1, 0] ]}, //prepared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5?flipx", "idle.2", [0, 0], [0, 0] ]}, //fabulous
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4?flipx", "idle.1", [0, 0], [0, 0] ]}, //stoic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5?flipx", "idle.3", [0, 0], [2, 0] ]}, //nervous
+
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.1", "idle.1?flipy", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "idle.2?flipy", [-1, 0], [0, 0] ]}, //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "idle.3?flipy", [-1, 0], [0, 0] ]}, //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.4?flipy", [-1, 0], [0, 0] ]}, //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5?flipy", [0, 0], [0, 0] ]}, //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "idle.5?flipy", [-1, 0], [0, 0] ]}, //wonderful
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.3?flipy", [-1, 0], [1, 0] ]}, //prepared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.2?flipy", [0, 0], [0, 0] ]}, //fabulous
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.1?flipy", [0, 0], [0, 0] ]}, //stoic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.3?flipy", [0, 0], [2, 0] ]} //nervous
 ]

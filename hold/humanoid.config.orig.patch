@@ -1,0 +1,12 @@
+[
+  {"op": "add", "path": "/personalities/-", "value": [ "idle.1", "idle.1", [0, 0], [0, 0] ]}, //standard
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "idle.2", [-1, 0], [0, 0] ], //confident
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.3", "idle.3", [-1, 0], [0, 0] ], //gunslinger
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.4", [-1, 0], [0, 0] ], //heroic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.5", [0, 0], [0, 0] ], //scared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.2", "idle.5", [-1, 0], [0, 0] ], //wonderful
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.3", [-1, 0], [1, 0] ], //prepared
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.2", [0, 0], [0, 0] ], //fabulous
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.4", "idle.1", [0, 0], [0, 0] ], //stoic
+  {"op": "add", "path": "/personalities/-", "value":[ "idle.5", "idle.3", [0, 0], [2, 0] ] //nervous
+]

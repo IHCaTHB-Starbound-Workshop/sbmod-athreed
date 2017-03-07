@@ -1,19 +1,9 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "^#5aa9d6;Space faring teenagers with ATTITUDE.^reset;
-
-Adds new personalities, some goofy some srs.
-
-Works with any modded race.
-
-Characters generated with this mod stay like that forever, even after uninstall. This requires starcheat or the like to fix.
-
-For more, click the MEGATHREAD link from the steam page.",
-  "friendlyName" : "Personality +",
+  "description" : "]",
+  "friendlyName" : "",
   "includes" : [],
-  "link" : "steam://url/CommunityFilePage/787324529",
-  "name" : "ATTUDE.IHC",
+  "name" : ".IHC",
   "requires" : [],
-  "steamContentId" : "787324529",
-  "version" : "0.1a"
+  "version" : "0.1"
 }
